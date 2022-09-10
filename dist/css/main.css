@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Layout*/
+div {
+  border: 0.0625rem solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.625rem;
+  margin-top: 1em;
+}
+div h1 {
+  margin-bottom: 1em;
+  color: green;
+  border-bottom: 0.0625rem solid blue;
+}
+
+section {
+  display: flex;
+}
+section article {
+  flex: 1;
+  padding: 20px 10px;
+  border: 0.0625rem solid green;
+  color: blue;
+  font-size: 1rem;
+}
+section article:nth-of-type(even) {
+  flex: 1;
+  padding: 20px 10px;
+  border: 0.0625rem solid green;
+  color: red;
+  font-size: 1rem;
+}
+section:nth-of-type(2) {
+  margin-top: 0.625rem;
+}
+section:nth-of-type(2) article {
+  flex: 1;
+  padding: 20px 10px;
+  border: 0.0625rem solid blue;
+  color: green;
+  font-size: 1rem;
+}/*# sourceMappingURL=main.css.map */
